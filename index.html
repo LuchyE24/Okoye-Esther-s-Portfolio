@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio web- Esther.O</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/19461e1a75.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ICODK white.png" class="logo">
+                <ul id="sidemenu">
+            
+    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer/UI/UX Designer</p>
+                <h1>Hello, I'm <span>Esther</span> <br>Okoye</h1>
+            </div>
+        </div>/
+    </div>
+    <!-- ........about..... -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ME RED.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I'm a UI/UX designer and web developer that is passionate about creating simple, user-focused digital experiences.  I create responsive, aesthetically pleasing, and effective websites by combining my technical expertise with design thinking.  Focusing on usability, I enjoy transforming intricate concepts into user-friendly interfaces.  Tools like HTML, CSS, JavaScript, Figma, and React are used in my work.  My goal is to provide smooth user experiences, whether it's a landing page or an entire online application.  Let's work together to create something amazing!.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Building and maintaining websites and web applications</li>
+                            <li><span>App Development</span><br>Building Android/iOS app</li>
+                        </ul>
+        
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                           
+                            <li><span>2024-Current</span><br>Web Developer Traning in ICOD_K innovations center
+                    </li>
+                            <li><span>2023-2024</span><br>Graphic Designer in Blessed Bartho Investment limited</li>
+                            <li><span>2023-Current</span><br>UI/UX Designer at Chain Fortune limited</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>2024</span><br>Full Stack Web Development in code Anambra digital skill</li>
+                            <li><span>2023</span><br>Web Design in Levelup Anambra Digital skill training</li>
+                      <li><span>2023</span><br>Graphic Design in Levelup Anambra Digital skill training</li>
+                      <li><span>2006</span><br>Pure and Industrial Chemistry in Nnamdi Azikiwe University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- .....service page..... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                
+                        <h2>Web Development</h2>
+                    <p>I encourage you to look through my portfolio to see what happens when creative thinking and well-designed, useful web development come together. I'm here at ICOD_K Innovations to help you realize your ideas with cutting-edge, approachable solutions that have an influence. We appreciate your visit!</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>App Design</h2>
+                    <p>See how intelligent development and careful design bring powerful, user-friendly apps to life by looking through my portfolio. Creating captivating mobile experiences that genuinely connect is my passion at ICOD_K Innovations.
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Welcome to ICOD_K Innovations, where every pixel has a purpose and every interface tells a story. I specialize in crafting seamless user experiences and visually compelling designs that make digital products not just functional, but unforgettable. 
+                    </p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ........portfolio...... -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Logistics (6).png">
+                    <div class="layer">
+                        <h3> Crystal Shipment Logistic website.</h3>
+                    <p> A Website built with HTML, CSS, Javascript,React,Nodejs and other tools.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ChurchFlier.png">
+                    <div class="layer">
+                        <h3>My Graphic Work</h3>
+                        <p>A Church Crusade Flier Designed With Canva.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/logindetails.png">
+                    <div class="layer">
+                        <h3>My UI/UX App</h3>
+                        <p> The Authentication/login page of a Restaurant App built with Figma.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ........contact....... -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>okoyeestheroluchi@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +2348167235789</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/oluchi.okoye.71"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/LuchyEst"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/okoye1338/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/oluchi-okoye-7751b5188/"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://www.canva.com/design/DAGqIWwtPvc/yjzTeIV39MVpQJfFSWT1cg/edit?utm_content=DAGqIWwtPvc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"download class="btn btn2">View Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Esther. Made with <i class="fas fa-heart"></i> by ICOD-K Innovations</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+
+</html>
